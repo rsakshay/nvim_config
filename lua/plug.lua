@@ -24,7 +24,8 @@ packer.startup(function(use)
     requires = {'kyazdani42/nvim-web-devicons',
                 opt = true}
   }
-  use { 'Mofiqul/dracula.nvim' }                     -- colorscheme
+  --use { 'Mofiqul/dracula.nvim' }                     -- colorscheme
+  use { "ellisonleao/gruvbox.nvim" }
 
   -- [[ Dev ]]
   use {
