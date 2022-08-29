@@ -32,6 +32,11 @@ packer.startup(function(use)
     'nvim-telescope/telescope.nvim',                 -- fuzzy finder
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use {
+    'nvim-treesitter/nvim-treesitter',               -- syntax highliter
+    run = ":TSUpdate"
+  }
+
   use { 'majutsushi/tagbar' }                        -- code structure
   use { 'Yggdroot/indentLine' }                      -- see indentation
   use { 'tpope/vim-fugitive' }                       -- git integration
