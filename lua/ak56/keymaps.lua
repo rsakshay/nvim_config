@@ -1,4 +1,4 @@
---[[ keys.lua ]]
+--[[ keymaps.lua ]]
 local map = vim.keymap.set
 
 -- remap the key used to leave insert mode

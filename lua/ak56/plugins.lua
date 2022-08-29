@@ -1,4 +1,4 @@
---[[ plug.lua ]]
+--[[ plugins.lua ]]
 
 local packer = require('packer')
 local util = require('packer.util')
