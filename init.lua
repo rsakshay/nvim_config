@@ -37,4 +37,4 @@ require('lualine').setup {
     }
 }
 require('nvim-autopairs').setup{}
-require('treesitter')
+require('ak56/treesitter')
