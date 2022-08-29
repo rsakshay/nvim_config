@@ -43,6 +43,8 @@ local options = {
     guifont = "monospace:h17",               -- font used in graphical neovim
 }
 
+vim.opt.shortmess:append "c"
+
 for k, v in pairs(options) do
     vim.opt[k] = v
 end
