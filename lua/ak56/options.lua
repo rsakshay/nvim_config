@@ -40,7 +40,7 @@ local options = {
     sidescrolloff = 8,                       -- int:  Min num lines of context
     showtabline = 2,                         -- num: Always show tabs
     completeopt = { "menuone", "noselect" }, -- list: for insert mode completion
-    guifont = "monospace:h17",               -- font used in graphical neovim
+    guifont = "CaskaydiaCove NF:h14",               -- font used in graphical neovim
 }
 
 vim.opt.shortmess:append "c"

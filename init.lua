@@ -16,3 +16,5 @@ require('ak56.plugins')      -- Plugins
 require('ak56.treesitter')
 require('ak56.nvim-tree')
 require('ak56.autopairs')
+require('ak56.cmp')
+require('ak56.lsp')
